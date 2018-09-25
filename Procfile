@@ -1,2 +1,2 @@
-web: bundle exec unicorn --port 5000
-local: rbenv exec bundle exec unicorn --port 5000
+web: bundle exec unicorn --port $PORT
+local: rbenv exec bundle exec unicorn --port $PORT
