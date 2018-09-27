@@ -31,8 +31,6 @@ echo "require './api'
 run Sinatra::Application" > config.ru
 ```
 
-> Created with the help of the [Sinatra getting started guide](http://sinatrarb.com/intro.html) and  [Heroku Sinatra-iOS guide](https://devcenter.heroku.com/articles/getting-started-ios-development-sinatra-cedar), captured in PDFs in `docs/`.
-
 ## Deployment
 
 ### Local
@@ -59,3 +57,9 @@ git push heroku master
 open $HEROKU_SINATRA_URL
 ```
 
+## References
+
+- [Sinatra getting started guide](http://sinatrarb.com/intro.html)
+- [Heroku Sinatra-iOS guide](https://devcenter.heroku.com/articles/getting-started-ios-development-sinatra-cedar)
+
+> Note: References preserved as PDFs in `docs/`.
