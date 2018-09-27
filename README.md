@@ -49,9 +49,9 @@ open http://0.0.0.0:5000
 ### Heroku
 
 ```sh
-heroku create
+heroku create # make sure your ‘heroku’ git remote points to the correct app's git url, like if there was a previous one
 git push heroku master
-open $HEROKU_SINATRA_URL
+heroku open
 ```
 
 ## References
