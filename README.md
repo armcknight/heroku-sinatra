@@ -2,7 +2,7 @@
 
 A simple “Hello world!” [Sinatra](http://sinatrarb.com) app that works with [`rbenv`](https://github.com/rbenv/rbenv).
 
-## Create from scratch:
+## Create from scratch
 
 ```sh
 # create the Sinatra source
@@ -33,9 +33,9 @@ run Sinatra::Application" > config.ru
 
 > Created with the help of the [Sinatra getting started guide](http://sinatrarb.com/intro.html) and  [Heroku Sinatra-iOS guide](https://devcenter.heroku.com/articles/getting-started-ios-development-sinatra-cedar), captured in PDFs in `docs/`.
 
-# Deployment
+## Deployment
 
-## Local
+### Local
 
 ```sh
 rbenv exec bundle exec ruby api.rb &
@@ -49,9 +49,9 @@ heroku local local &
 open http://0.0.0.0:5000
 ```
 
-# Remote
+## Remote
 
-## Heroku
+### Heroku
 
 ```sh
 heroku create
