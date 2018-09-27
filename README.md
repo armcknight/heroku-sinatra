@@ -49,5 +49,13 @@ heroku local local &
 open http://0.0.0.0:5000
 ```
 
+# Remote
+
 ## Heroku
+
+```sh
+heroku create
+git push heroku master
+open $HEROKU_SINATRA_URL
+```
 
