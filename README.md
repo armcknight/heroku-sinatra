@@ -18,10 +18,7 @@ gem 'unicorn'
 gem 'json'" > Gemfile   
   
 # install and package dependencies
-rbenv exec bundle config --local path vendor/bundle
-rbenv exec bundle
-rbenv exec bundle package
-echo "vendor/bundle/**/*" > .gitignore # ignore the bundle sources but save the packaged caches
+rbenv exec bundle package --path=vendor/bundle
 
 # create a Procfile and config.ru for Heroku
 echo "web: bundle exec unicorn --port \$PORT
